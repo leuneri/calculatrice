@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Simple Calculator</h2>
+    <h2>Calculator</h2>
     <form @submit.prevent="calculate">
       <input type="number" v-model="num1" placeholder="Number 1" required />
       <select v-model="operation">
